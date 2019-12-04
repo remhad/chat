@@ -26,7 +26,7 @@
 			</TextBlock.Background>
 		</TextBlock>
 		<TextBox x:Name="MessageInput" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="582" Margin="87,309,0,0" Text="Eingabe" Grid.ColumnSpan="2"/>
-		<Button x:Name="SendButton" Content="Senden" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.306,15.966" Margin="87,337,0,0"/>
+		<Button IsEnabled="False" x:Name="SendButton" Content="Senden" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.306,15.966" Margin="87,337,0,0" Click="SendButton_Click"/>
 
 	</Grid>
 </Window>

@@ -12,3 +12,4 @@ C:\Users\remhad.hasanovic\source\repos\Chat\Chat\obj\Debug\Chat.csproj.GenerateR
 C:\Users\remhad.hasanovic\source\repos\Chat\Chat\obj\Debug\Chat.csproj.CoreCompileInputs.cache
 C:\Users\remhad.hasanovic\source\repos\Chat\Chat\obj\Debug\Chat.exe
 C:\Users\remhad.hasanovic\source\repos\Chat\Chat\obj\Debug\Chat.pdb
+C:\Users\remhad.hasanovic\source\repos\Chat\Chat\obj\Debug\Chat.csprojResolveAssemblyReference.cache
