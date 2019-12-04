@@ -93,5 +93,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="worldsim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="code.jpg" />
+    <Resource Include="header.jpg" />
+    <Resource Include="ki_trends_head.jpg" />
+    <Resource Include="Kryptowährung-selber-programmieren-Wie-geht-das.jpg" />
+    <Resource Include="shutterstock_1092234560-Konvertiert.gif" />
+    <Resource Include="shutterstock_736384903_16_9.jpg" />
+    <Resource Include="Supercomputer_Fotolia_183265763_S-864x500.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
