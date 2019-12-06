@@ -5,28 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chat"
         mc:Ignorable="d"
-        Title="RemisChat" Height="450" Width="759.58" FontSize="14">
+        Title="RemisChat" Height="496.947" Width="759.58" FontSize="14">
 	<Window.Background>
 		<ImageBrush/>
 	</Window.Background>
 	<Grid>
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="17*"/>
-			<ColumnDefinition Width="30*"/>
-		</Grid.ColumnDefinitions>
+		
 		<Grid.Background>
 			<ImageBrush ImageSource="code.jpg"/>
 		</Grid.Background>
-		<Label x:Name="LabelIP" Content="IP" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,10,0,0" FontSize="14" FontWeight="Bold"/>
-		<TextBox x:Name="IpAdressInput" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="129" Margin="87,14,0,0"/>
-		<Button x:Name="ConnectButton" Content="Verbinden" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" RenderTransformOrigin="1.857,3.427" Margin="87,42,0,0" Click="ConnectButton_Click"/>
-		<TextBlock x:Name="ChatText" Padding="5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Bitte verbinden!" VerticalAlignment="Top" Margin="87,102,0,0" Width="582" Height="202" Foreground="#FFFBF6F6" Grid.ColumnSpan="2" FontSize="14" FontFamily="Viner Hand ITC">
-			<TextBlock.Background>
+		<Label x:Name="LabelIP" Content="IP" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,35,0,0" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.5,0.966" Foreground="#FFF9F6F6"/>
+		<TextBox x:Name="IpAdressInput" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="127.0.0.1" VerticalAlignment="Top" Width="129" Margin="87,38,0,0"/>
+		<Button x:Name="ConnectButton" Content="Verbinden" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" RenderTransformOrigin="1.857,3.427" Margin="244,38,0,0" Click="ConnectButton_Click" Grid.ColumnSpan="2"/>
+		<ScrollViewer Margin="87,142,83,122" Width="582" Height="202" Grid.ColumnSpan="2" >
+			<TextBlock x:Name="ChatText" Padding="5" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Bitte verbinden!" VerticalAlignment="Top" Width="Auto" Height="Auto" Foreground="#FFFBF6F6" Grid.ColumnSpan="2" FontSize="14" FontFamily="Viner Hand ITC">
+			</TextBlock>
+			<ScrollViewer.Background>
 				<ImageBrush ImageSource="header.jpg"/>
-			</TextBlock.Background>
-		</TextBlock>
-		<TextBox x:Name="MessageInput" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="582" Margin="87,309,0,0" Text="Eingabe" Grid.ColumnSpan="2"/>
-		<Button IsEnabled="False" x:Name="SendButton" Content="Senden" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.306,15.966" Margin="87,337,0,0" Click="SendButton_Click"/>
+			</ScrollViewer.Background>
+		</ScrollViewer>
+		<TextBox x:Name="MessageInput" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="582" Margin="87,349,0,0" Text="Eingabe" Grid.ColumnSpan="2"/>
+		<Button IsEnabled="False" x:Name="SendButton" Content="Senden" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.306,15.966" Margin="87,377,0,0" Click="SendButton_Click"/>
+		<Label x:Name="LabelName" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" Margin="10,6,0,0" Foreground="#FFF7F3F3"/>
+		<TextBox x:Name="NameInput" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="286" Margin="87,6,0,0" Grid.ColumnSpan="2"/>
+		<Label Content="Online" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,66,0,0" FontWeight="Bold" Background="Transparent" Foreground="#FFF9F7F7"/>
+		<Label x:Name="OnlineOutput" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.916,3.175" Margin="87,66,0,0" FontWeight="Bold" Background="Transparent" Foreground="#FFC90909" ContextMenuClosing="OnlineOutput_Click"/>
 
 	</Grid>
 </Window>

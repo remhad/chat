@@ -1,0 +1,7 @@
+C:\Users\remhad.hasanovic\source\repos\Chat\UnicodeTest\bin\Debug\UnicodeTest.exe.config
+C:\Users\remhad.hasanovic\source\repos\Chat\UnicodeTest\bin\Debug\UnicodeTest.exe
+C:\Users\remhad.hasanovic\source\repos\Chat\UnicodeTest\bin\Debug\UnicodeTest.pdb
+C:\Users\remhad.hasanovic\source\repos\Chat\UnicodeTest\obj\Debug\UnicodeTest.csprojResolveAssemblyReference.cache
+C:\Users\remhad.hasanovic\source\repos\Chat\UnicodeTest\obj\Debug\UnicodeTest.csproj.CoreCompileInputs.cache
+C:\Users\remhad.hasanovic\source\repos\Chat\UnicodeTest\obj\Debug\UnicodeTest.exe
+C:\Users\remhad.hasanovic\source\repos\Chat\UnicodeTest\obj\Debug\UnicodeTest.pdb

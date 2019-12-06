@@ -1,0 +1,7 @@
+C:\Users\remhad.hasanovic\source\repos\Chat\Parallelen\bin\Debug\Parallelen.exe.config
+C:\Users\remhad.hasanovic\source\repos\Chat\Parallelen\bin\Debug\Parallelen.exe
+C:\Users\remhad.hasanovic\source\repos\Chat\Parallelen\bin\Debug\Parallelen.pdb
+C:\Users\remhad.hasanovic\source\repos\Chat\Parallelen\obj\Debug\Parallelen.csprojResolveAssemblyReference.cache
+C:\Users\remhad.hasanovic\source\repos\Chat\Parallelen\obj\Debug\Parallelen.csproj.CoreCompileInputs.cache
+C:\Users\remhad.hasanovic\source\repos\Chat\Parallelen\obj\Debug\Parallelen.exe
+C:\Users\remhad.hasanovic\source\repos\Chat\Parallelen\obj\Debug\Parallelen.pdb
